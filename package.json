@@ -1,0 +1,16 @@
+{
+  "name": "my-port",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https//prosperepaphras.github.io/portfolio",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

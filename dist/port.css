@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Tahoma, sans-serif;
+}
+body{
+    background: #f4f6f8;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 9%;
+    background: #001e4a;
+    color: azure;
+    position: sticky;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.welcome{
+    
+    background: #1e498a;
+    color: #f4f6f8;
+    padding: 40px 9%;
+}
+.welcome h1{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.welcome p{
+    position: relative;
+    left: 25px 9%;
+    font-size: 35px;
+    width: 85%;
+}
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 9%;
+}
+.img1 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    border: #001e4a 5px solid;
+}
+.home .intro{
+    color: #001e4a;
+    height: 100%;
+    width:50%
+}
+.home .intro h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.home .intro h2{
+    font-size: 40px;
+}
+.home .intro p{
+    position: relative;
+    top: 30px;
+    font-size: 28px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+.skills-card{
+    display: flex;
+    width: 300px;
+    background: #001e4a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgb(197, 197, 214);
+    margin: 20px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: #f4f6f8;
+}
+.projects-sec{
+    display:flex;
+    justify-content: space-around;
+    height: auto;
+}
+.projects{
+    width: 300px;
+    background: #001e4a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgb(197, 197, 214);
+    margin: 20px;
+    /* height: 70px; */
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    color: #f4f6f8;
+}
+.projects img{
+    height: 100px;
+    width:100%;
+}
+.projects h1{
+    margin: 10px;
+}
+.contact-me{
+    
+}
