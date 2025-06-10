@@ -46,6 +46,9 @@ a {
   color: #f4f6f8;
   padding: 60px 9%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .welcome h1 {
@@ -64,7 +67,11 @@ a {
 .welcome .btn {
   background: #f4f6f8;
   padding: 20px;
-  margin-top: 10px;
+  width: 20%;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #001e4a;
+  font-size: 1.5rem;
 }
 
 /* Home Section */
@@ -113,7 +120,7 @@ a {
 .skills {
   padding: 40px 9%;
 }
-.skills-grid{
+.skills-box{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -135,19 +142,19 @@ a {
 
 /* Projects Section */
 .projects-sec{
-  padding: 40px 9%;
+  padding: 40px 7%;
 }
-.projects-grid {
+.projects-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 40px 9%;
+  padding: 40px 5%;
 }
 
 .projects {
-  width: 300px;
+  width: 250px;
   background: #001e4a;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(197, 197, 214);
@@ -177,6 +184,14 @@ a {
   margin: 10px 0;
   font-size: 1.5rem;
 }
+.projects a{
+  background: #f4f6f8;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #001e4a;
+  
+}
 
 /* Contact Section */
 .contact-me{
@@ -192,7 +207,8 @@ a {
   display:flex;
   flex-direction: column;
   width: 60%;
-
+  border-radius: 10px;
+  
 }
 
       /* +/ Footer-Section// */
@@ -202,5 +218,4 @@ footer{
   height:50px;
   display: flex;
   justify-content: center; 
-   border-radius: 10px;
 }
