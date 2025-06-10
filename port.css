@@ -6,7 +6,7 @@
 
 body {
   background: #f4f6f8;
-  width: 100%;
+  
   color: #001e4a;
   line-height: 1.4;
 }
@@ -255,10 +255,4 @@ footer{
 }
 footer p{
   margin: 20px 0 30px;
-}
-.ft-socials{
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
