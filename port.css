@@ -16,12 +16,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* // This is to style buttons in the entire webpage and the links in the project section when they are hovered upon */
-.btn,.projects a:hover{
-  background: transparent;
-  color: #f4f6f8;
-  border: 1px solid #f4f6f8;
-}
 
 /* Navbar */
 .navbar {
@@ -177,7 +171,6 @@ a {
 .projects:hover {
   box-shadow: 0 8px 15px rgb(197, 197, 214);
 }
-
 .projects img {
   width: 100%;
   height: 140px;
@@ -185,7 +178,6 @@ a {
   border-radius: 6px;
   margin-bottom: 12px;
 }
-
 .projects h1 {
   margin: 10px 0;
   font-size: 1.5rem;
@@ -242,6 +234,12 @@ a {
   border-radius: 15px;
   color: #001e4a;
   font-size: 20px;
+}
+
+.btn:hover{
+  background: transparent;
+  color: #f4f6f8;
+  border: 1px solid #f4f6f8;
 }
 
       /* +/ Footer-Section// */
