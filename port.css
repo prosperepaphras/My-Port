@@ -16,6 +16,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
+/* // This is to style buttons in the entire webpage and the links in the project section when they are hovered upon */
+.btn,.projects a:hover{
+  background: transparent;
+  color: #f4f6f8;
+  border: 1px solid #f4f6f8;
+}
 
 /* Navbar */
 .navbar {
@@ -67,7 +73,7 @@ a {
 .welcome .btn {
   background: #f4f6f8;
   padding: 20px;
-  width: 20%;
+  width: fit-content;
   margin-top: 20px;
   border-radius: 15px;
   color: #001e4a;
@@ -203,19 +209,58 @@ a {
   padding: 40px 9%;
   background: #1e498a;
 }
+.contact-me h2{
+  color: #f4f6f8;
+  margin: 15px;
+}
 .contact-form{
   display:flex;
   flex-direction: column;
   width: 60%;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   
+}
+.contact-form input, textarea {
+  width: 80%;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.contact-form textarea {
+  width: 80%;
+  height: 80px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.contact-form .btn {
+  background: #f4f6f8;
+  padding: 20px;
+  width: fit-content;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #001e4a;
+  font-size: 20px;
 }
 
       /* +/ Footer-Section// */
 footer{
   background: #001e4a;
   color: #f4f6f8;
-  height:50px;
+}
+footer{
   display: flex;
-  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  margin: 20px 0 30px;
+}
+.ft-socials{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
