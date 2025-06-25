@@ -6,22 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Prosper Epaphras | Portfolio</title>
   <link rel="stylesheet" href="port.css" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
 
-<body>
+<body >
   <header>
     <nav class="navbar" role="navigation" aria-label="Main navigation">
       <a href="#" class="logo">
         <img src="l.png" alt="Logo" />
       </a>
-      <ul class="nav-links">
+      <ul class="navlinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button  onclick="toogleSidebar()"><i class="bx bx-menu" id="menu-icon"> </i></button>
     </nav>
   </header>
 
@@ -139,6 +140,11 @@
   <footer>
     <p>Copyright&copy; 2025 by Prosper Epaphras. All rights reserved.</p>
   </footer>
+  <script src="">
+    function toogleSidebar(){
+      document.querySelector('body').classList.toggle('open')
+    }
+  </script>
 </body>
 
 </html>
