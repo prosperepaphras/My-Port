@@ -39,6 +39,13 @@ a {
   list-style: none;
   margin-left: 20px;
 }
+#menu-icon{
+  font-size: 34px;
+  color: #f4f6f8;
+  z-index: 101;
+  cursor: pointer;
+  display: none;
+}
 
 /* Welcome Section */
 .welcome {
@@ -286,13 +293,26 @@ footer p {
 /* //////////////////////////////////////////// */
 /* For Responsiveness */
 @media (max-width: 475px) {
-  .navbar {
-    flex-direction: column;
-  }
-
-  .navbar ul {
-    flex-direction: column;
+  .navbar ul{
+     position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    backdrop-filter: blur(32px);
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+    transition: all 0.3s ease;
+    display: none;
+  }
+  .open .navlinks{
+    display: block;
+  }
+  .navbar ul a {
+    display: block;
+    padding: 0px 0px 50px 0px;
+    font-size: 1.7rem;
   }
 
   .navbar ul li {
@@ -300,6 +320,10 @@ footer p {
     margin-top: 20px;
   }
 
+  #menu-icon {
+    display: block;
+  }
+ 
   /* Welcome Section */
   .welcome h1 {
     font-size: 50px;
